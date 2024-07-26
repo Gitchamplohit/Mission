@@ -56,6 +56,17 @@
     <version>0.8.7</version>
 </dependency>
 	</dependencies>
+	<distributionManagement>
+        <repository>
+            <id>maven-releases</id>
+            <url>http://98.80.183.116:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>maven-snapshots</id>
+            <url>http://98.80.183.116:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 	<servers>
     <server>
         <id>maven-releases</id>
@@ -67,17 +78,6 @@
         <username>nexus</username>
         <password>nexus</password>
     </server>
-
-	<distributionManagement>
-        <repository>
-            <id>maven-releases</id>
-            <url>http://98.80.183.116:8081/repository/maven-releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>maven-snapshots</id>
-            <url>http://98.80.183.116:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
 
 	<build>
 		<plugins>
