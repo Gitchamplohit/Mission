@@ -67,18 +67,6 @@
         </snapshotRepository>
     </distributionManagement>
 
-	<servers>
-    <server>
-        <id>maven-releases</id>
-        <username>nexus</username>
-        <password>nexus</password>
-    </server>
-    <server>
-        <id>maven-snapshots</id>
-        <username>nexus</username>
-        <password>nexus</password>
-    </server>
-
 	<build>
 		<plugins>
 			<plugin>
