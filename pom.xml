@@ -62,14 +62,11 @@
         <username>nexus</username>
         <password>nexus</password>
     </server>
-</servers>
-	<servers>
     <server>
         <id>maven-snapshots</id>
         <username>nexus</username>
         <password>nexus</password>
     </server>
-</servers>
 
 	<distributionManagement>
         <repository>
